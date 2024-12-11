@@ -59,8 +59,6 @@ p {
 img {
   border-radius: 50%;
   width: 170px;
-  border-style: solid;
-  border-color: white;
   border-width: 1px;
   box-shadow: 0px 0px 30px 5px #ff4f79;
   display: block;
@@ -124,7 +122,7 @@ img {
 
 .main-info-div {
   background-color: black;
-  border-style: solid;
+  border-radius: 3px;
   box-shadow: 0px 0px 10px 5px #FF4F79;
   margin:8%;
   padding-top: 1%;
@@ -145,31 +143,17 @@ img {
   margin-top: 5%;
 }
 
-#list-div {
-  background-color: black;
-  width: 500px;
-  height: 100px;
-  margin: auto;
-
-}
-
 ul {
   list-style: none;
-  padding-left: auto;
-  padding-right: auto;
   font-size: 50px;
-  margin: auto;
-  text-align: center;
-}
-
-li {
-  display: inline-block;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-right: 50px;
 }
 
 .fa-brands {
   display: inline-block;
-  margin: 20px;
-  padding-right: 50px;
   background: -webkit-linear-gradient(#FF4F79, #A11692);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
